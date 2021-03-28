@@ -1,3 +1,17 @@
 main:
+  - title: "Wer sind wir?"
+    url: /ueber-uns/
+  - title: "Unterrichtsprinzipien"
+    url: /unterrichtsprinzipien/
+  - title: "Perspektiven"
+    url: /perspektiven/
+  - title: "Organisation"
+    url: /organisation/
+  - title: "Schulbetrieb"
+    url: /schulbetrieb/
+  - title: "SponsorInnen"
+    url: /sponsoren/
   - title: "Kontakt"
     url: /kontakt/
+  - title: "Nachmittag"
+    url: /nachmittag/
