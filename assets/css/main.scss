@@ -8,6 +8,7 @@ $background-color: #f1f0eb;
 $text-color: #443f3f;
 $header-background-color:  rgba(178,50,45,1); // invented by walter
 $masthead-link-color: white;
+$masthead-link-color-hover: rgb(235, 222, 222);
 $footer-background-color: #3d3d3c;
 
 @charset "utf-8";
@@ -45,4 +46,12 @@ figure.third > a, figure.third > img {
     margin: 0 0 0;
     line-height: 1;
     font-weight: bold;
+}
+
+.navicon {
+    background-color: $primary-color;
+}
+
+.masthead__inner-wrap {
+    max-width: unset;
 }
