@@ -1,0 +1,49 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+
+---
+
+$primary-color: rgba(178,50,45,1);
+$background-color: #f1f0eb;
+$text-color: #443f3f;
+$header-background-color:  rgba(178,50,45,1); // invented by walter
+$masthead-link-color: white;
+$footer-background-color: #3d3d3c;
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+div.masthead {
+    background-color: $header-background-color !important;
+}
+
+nav#site-nav {
+    background-color: $header-background-color !important;
+}
+
+// walter: remove ugly white line on top of masthead image
+.masthead {
+    border-bottom-width: 0px !important;
+}
+
+// walter: make logo size larger than initial 2rem
+.site-logo img {
+    max-height: 3rem;
+}
+
+figure.third > a, figure.third > img {
+    width: calc(20% - 0.5em);
+}
+
+.notice {
+    color: white;
+    background-color: $primary-color;
+}
+
+.notice h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0;
+    line-height: 1;
+    font-weight: bold;
+}

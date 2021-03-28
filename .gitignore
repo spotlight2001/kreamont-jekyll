@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+_includes/archive-single.html
+_includes/masthead.html
+_sass/*
