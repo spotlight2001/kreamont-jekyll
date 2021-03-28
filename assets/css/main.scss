@@ -48,10 +48,15 @@ figure.third > a, figure.third > img {
     font-weight: bold;
 }
 
-.navicon {
-    background-color: $primary-color;
+div.navicon, div.navicon::before, div.navicon::after {
+    background-color: white;
 }
 
 .masthead__inner-wrap {
     max-width: unset;
+}
+
+.greedy-nav .hidden-links {
+    border-color: $primary-color !important;
+    background-color: $primary-color !important;
 }
