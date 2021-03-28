@@ -5,7 +5,7 @@
 layout: splash
 header:
   image: "/assets/images/kreamont_header.jpg"
-  
+
 ---
 
 {% capture notice-2 %}
@@ -20,6 +20,6 @@ Maria Montessori (1870 – 1952)
 
 <figure class="third">
 {% for sponsor in site.data.sponsoren %}
-    <img src="{{sponsor.image}}">
+    <img src="{{sponsor.image | relative_url}}">
 {% endfor %}
 </figure>
