@@ -6,4 +6,4 @@ categories: film
 image_path: /assets/images/posts/kreamont_der_film_preview.jpg
 show_on_home: true
 ---
-Auf unserem [Youtube Kanal](https://www.youtube.com/channel/UCkDzl5IuKQnxMhbT7OMBJIQ) gibts einen Kurzfilm, eine Dokumentation, über die Kreamont.
+Auf unserem [Youtube Kanal](https://www.youtube.com/channel/UCkDzl5IuKQnxMhbT7OMBJIQ) gibt es einen Kurzfilm, eine Dokumentation, über die Kreamont.
